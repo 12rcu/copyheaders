@@ -1,4 +1,4 @@
-package copy_header_middleware
+package copyheaders
 
 import (
 	"context"

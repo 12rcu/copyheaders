@@ -1,5 +1,5 @@
-// Package copy_header_middleware plugin middleware to copy a header value to another header.
-package copy_header_middleware
+// Package copyheaders plugin middleware to copy a header value to another header.
+package copyheaders
 
 import (
 	"context"
