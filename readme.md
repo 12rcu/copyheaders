@@ -13,7 +13,7 @@ experimental:
   plugins:
     copyheaders:
       moduleName: github.com/12rcu/copyheaders
-      version: v0.1.4
+      version: v0.1.1
 ```
 
 ## Usage
