@@ -1,12 +1,10 @@
-displayName: Demo Plugin
+displayName: Copy Header Middleware
 type: middleware
-iconPath: .assets/icon.png
+import: github.com/12rcu/copyheaders
 
-import: github.com/traefik/plugindemo
-
-summary: '[Demo] Add Request Header'
+summary: 'Copies the value of one header to another header'
 
 testData:
-  Headers:
-    X-Demo: test
-    X-URL: '{{URL}}'
+  headers:
+    - from: from
+      to: to
